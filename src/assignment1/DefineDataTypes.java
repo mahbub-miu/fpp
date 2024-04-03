@@ -3,7 +3,9 @@ package src.assignment1;
 public class DefineDataTypes {
     public static void main(String...args){
 
-        long myRandom = RandomNumbers.getRandomInt();
+
+
+        long myRandom = RandomNumbers.getRandomInt(0, 2_000_000_000);
         System.out.println(myRandom);
 
         if(myRandom<=Byte.MAX_VALUE){
