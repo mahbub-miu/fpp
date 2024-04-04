@@ -30,10 +30,10 @@ public class Prog2 {
                 "933W,Cat Toy,15,Wilco,2.35:"+"215A,Hair Ball,0,Little Jimmy,0.00:";
 
 
-        String[] strArrforRow =records.split(":");
-        System.out.println(strArrforRow.length);
-        for(int i=0; i<strArrforRow.length; i++){
-            String[] innerArray=strArrforRow[i].split(",");
+        String[] strOuterArrays =records.split(":");
+
+        for(String outerArray: strOuterArrays){
+            String[] innerArray = outerArray.split(",");
             System.out.println(innerArray[0]);
         }
 
