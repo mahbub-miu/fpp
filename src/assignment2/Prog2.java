@@ -31,7 +31,7 @@ public class Prog2 {
 
 
         String[] strOuterArrays =records.split(":");
-
+        System.out.println(strOuterArrays.length);
         for(String outerArray: strOuterArrays){
             String[] innerArray = outerArray.split(",");
             System.out.println(innerArray[0]);
