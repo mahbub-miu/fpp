@@ -66,6 +66,6 @@ class HeartRates {
 
     @Override
     public String toString(){
-        return "First Name: "+firstName+"\n Last Name: "+lastName+"\n age: "+ageInYears;
+        return "First Name: "+firstName+"\nLast Name: "+lastName+"\nage: "+ageInYears;
     }
 }
