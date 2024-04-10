@@ -1,4 +1,4 @@
-package Task1;
+package src.Task2;
 
 public class CountDigits {
     public static void main(String...args){
