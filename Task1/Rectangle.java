@@ -1,4 +1,4 @@
-package Task3;
+package Task1;
 
 final class Rectangle {
     private final double width;

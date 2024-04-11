@@ -1,4 +1,4 @@
-package Task3;
+package Task1;
 
 final class Circle {
     private final double radius;

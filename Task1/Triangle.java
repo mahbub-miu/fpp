@@ -1,4 +1,4 @@
-package Task3;
+package Task1;
 
 final class Triangle {
     private final double base;
