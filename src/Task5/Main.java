@@ -12,7 +12,7 @@ public class Main {
 
 
 
-        if((c1.equals(c2)==true) && c1.hashCode()==c2.hashCode()){
+        if((c1.equals(c2)) && c1.hashCode()==c2.hashCode()){
             System.out.println("Hash code of C1: "+c1.hashCode());
             System.out.println("Hash code of C2: "+c2.hashCode());
             System.out.println("Computers are same based on configuration and hash code");
