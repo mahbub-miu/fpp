@@ -5,10 +5,10 @@ public class Main {
         Computer c1 = new Computer("HP","Intel",16,3.0);
         Computer c2 = new Computer("HP","Intel",16,3.0);
         System.out.println("Configuration of Computer-1:");
-        System.out.println(c1.toString());
+        System.out.println(c1);
 
         System.out.println("\nConfiguration of Computer-2:");
-        System.out.println(c2.toString());
+        System.out.println(c2);
 
 
 
