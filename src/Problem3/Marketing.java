@@ -54,7 +54,6 @@ public class Marketing {
     }
 
     public static class SaleaAmountComparator implements Comparator<Marketing> {
-
         @Override
         public int compare(Marketing marketing1, Marketing marketing2) {
             return Double.compare(marketing1.salesamount, marketing2.salesamount);
